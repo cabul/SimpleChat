@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title #{title}
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='/style.css')
+  body
+    h1 #{title}
+    p Conectado como #{user}
+    #messages
+    .controls
+      input#field
+      span#send enviar
+    script(src='/chat.js')
+    script(src='/socket.io/socket.io.js')
+    p.hidden#sip #{sip}
+    p.hidden#sport #{sport}
+    p.hidden#user #{user}

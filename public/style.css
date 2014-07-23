@@ -1,0 +1,52 @@
+body {
+  font-family: monospace;
+}
+
+p {
+  font-size: 16px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#messages {
+  margin: 0;
+  width: 600px;
+  height: 340px;
+  border: 1px solid black;
+  overflow-y: scroll;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#messages p {
+  margin: 5px;
+}
+
+input#field {
+  margin: 0;
+  width: 480px;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid black;
+  font-family: monospace;
+}
+
+span#send {
+  display: inline-block;
+  margin: 0;
+  padding: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+  width: 78px;
+  border: 1px solid black;
+  text-align: center;
+  cursor: pointer;
+  background: #fff;
+}
+
+span#send:hover {
+  background: #f0f0f0;
+}
+
